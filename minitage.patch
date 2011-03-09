@@ -1,0 +1,12 @@
+diff -ur tesseract-3.00/configure tesseract-3.00.new/configure
+--- tesseract-3.00/configure	2010-09-30 19:11:56.000000000 +0200
++++ tesseract-3.00.new/configure	2011-03-09 01:24:43.000000000 +0100
+@@ -16431,7 +16431,7 @@
+ 
+ 
+ # Check location of leptonica/liblept headers.
+-have_lept=no
++have_lept=yes
+ for incd in /usr/local/include /usr/include
+ do
+   for lept in . leptonica liblept
