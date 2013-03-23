@@ -1,0 +1,12 @@
+diff -Nur tesseract-ocr/configure tesseract-ocr.new/configure
+--- tesseract-ocr/configure	2012-10-26 19:52:20.000000000 +0200
++++ tesseract-ocr.new/configure	2013-03-23 19:30:54.499335941 +0100
+@@ -17097,7 +17097,7 @@
+ $as_echo_n "checking for leptonica... " >&6; }
+ 
+ 
+-have_lept=no
++have_lept=yes
+ if test "$LIBLEPT_HEADERSDIR" = "" ; then
+   LIBLEPT_HEADERSDIR="/usr/local/include /usr/include"
+ fi
